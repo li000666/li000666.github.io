@@ -1,12 +1,72 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf
 }
 
 h1 {
     color: white
 }
 
+h1 {
+    background-image: url(../images/lone-starfish-wide.jpg);
+        position: top;
+        background-size: contain;
+        /* adding styles to make text readable */
+        color: white;
+        /* font-size: 24px; */
+        /* updating font size to rem */
+        font-size: 4rem;
+        /* 1.5rem = 4  X 16px = 48px */
+      
+        /* adding padding to add space between the border and content */
+        /* EX 4 -adding additional padding at the bottom */
+        padding: 1.5em 1.5em 3em 1.5em;
+        /* 1em = 1 x 24px = 24px */
+        width: 100vw;
+      }
+
+p {
+    background-color: #aad4cf
+}
+
+/* Selecting multiple elements to add same styles */
+h1,
+h2,
+h3,
+
 /* Selecting child elemetns */
+
 nav ul {
     list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    width: 33%;
+    padding: 0.75em;
+
+    box-sizing: border-box;
+  }
+
+  nav ul a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 1.75rem;
+  }
+  
+  /* creating a two column layout using float */
+
+
+.large-text {
+  font-size: 20px;
+}
+
+article>p {
+    font-size: 20px;
+    font-weight: bold;
+    /* lighter, normal, bold, bolder OR 100, 200, 200, 800 */
+    line-height: 1.4-1.6;
+    text-align: center;
+
 }
