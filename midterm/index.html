@@ -16,10 +16,13 @@
       <nav>
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html">HOME</a>
           </li>
           <li>
-            <a href="contact.html">Contact</a>
+            <a href="story.html">STORY</a>
+          </li>
+          <li>
+            <a href="contact.html">CONTACT</a>
           </li>
         </ul>
       </nav>
@@ -50,6 +53,35 @@
         </ul>
       </aside>
       <!-- Adding section for the ordered list -->
+
+      <!-- Adding a form -->
+    <section>
+      <h3>Contact to learn more</h3>
+      <form action="thanks.html" method="get">
+        <div>
+          <label for="fullname">Your Name</label>
+          <input type="text" id="fullname" name="yourname" required>
+        </div>
+        <div>
+          <label for="youremail">Your Email</label>
+          <input type="email" id="youremail" name="youremail" required>
+        </div>
+        <div>
+          <label for="message">Your Message</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <div>
+          <h3>Would like to visit the Starfish?</h3>
+          <label for="yes">Yes</label>
+          <input type="radio" id="yes" name="past">
+          <label for="no">No</label>
+          <input type="radio" id="no" name="past">
+          <label for="maybe">Maybe</label>
+          <input type="radio" id="maybe" name="past">
+        </div>
+        <button type="send">SEND</button>
+      </form>
+    </section>
     </main>
     <footer class="site-footer">
       <!-- HTML Entity -->
