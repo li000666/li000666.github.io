@@ -1,72 +1,110 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #aad4cf
-}
+ html{
+ font-size: 16px;
+ background-color: #aad4cf;
+ }
 
-h1 {
-    color: white
-}
+ body {
+ margin:0 auto;
+ background: lightblue;
+ width:65rem;
+ height: 100%;
+ }
 
-h1 {
-    background-image: url(../images/lone-starfish-wide.jpg);
-        position: top;
-        background-size: contain;
-        /* adding styles to make text readable */
-        color: white;
-        /* font-size: 24px; */
-        /* updating font size to rem */
-        font-size: 4rem;
-        /* 1.5rem = 4  X 16px = 48px */
-      
-        /* adding padding to add space between the border and content */
-        /* EX 4 -adding additional padding at the bottom */
-        padding: 1.5em 1.5em 3em 1.5em;
-        /* 1em = 1 x 24px = 24px */
-        width: 100vw;
-      }
+ .head-div{
+ position: relative; 
+ }
 
-p {
-    background-color: #aad4cf
-}
+ .head-img{
+ width:65rem;
+ height:25rem;
+ z-index:1;
+ max-width:100%;
+ }
 
-/* Selecting multiple elements to add same styles */
-h1,
-h2,
-h3,
+ .h1-div{
+ position: absolute;
+ z-index: 2;
+ left:15rem;
+ top:11rem;
+ font-size: 3rem;
+ font-weight: bold;
+ color:white;
+ font-family: Arial, Helvetica, sans-serif;
+ } 
 
-/* Selecting child elemetns */
+ nav ul{ overflow:hidden;}
+ nav li{ float:left; width:33%; text-align:center;}
+ nav a{
 
-nav ul {
-    list-style: none;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    width: 33%;
-    padding: 0.75em;
+ border-right: 0.1rem solid #000; 
+ color:black;
+ font-weight: bold;
+ }
 
-    box-sizing: border-box;
-  }
+ nav li:last-child a{
+ border:none;
+ }
+ a:hover {
+ color:black;
+ }
+ 
+ nav li a{ display:block;}
+ .head1 {
+ font-size: 2rem;
+ color:black;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-top:4rem;
+ margin-left: 0.9rem;
+ padding-bottom: 0.2rem;
+ }
 
-  nav ul a {
-    display: block;
-    color: black;
-    text-decoration: none;
-    font-size: 1.75rem;
-  }
-  
-  /* creating a two column layout using float */
+ .container {
+ width:65rem;
+ margin: 0 auto;
+ }
 
+ .img{
+ width:25rem;
+ height:20rem; 
+ margin: 1rem 3rem 1rem 1rem;
+ float:left;
+ max-width:100%;
+ }
 
-.large-text {
-  font-size: 20px;
-}
+ p{
+ font-size: 1.1rem;
+ color:black;
+ font-weight: bold;
+ margin: 0 0.3rem 1rem 0.3rem;
+ padding: 0.5rem 1rem;
+ line-height: 130%;
+ }
 
-article>p {
-    font-size: 20px;
-    font-weight: bold;
-    /* lighter, normal, bold, bolder OR 100, 200, 200, 800 */
-    line-height: 1.4-1.6;
-    text-align: center;
+ .head2{
+ font-size: 2rem;
+ color:black;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-top:2.5rem;
+ margin-left: 0.8rem;
+ padding-bottom: 0.3rem;
+ }
 
-}
+ ul{
+ font-size: 1.4rem;
+ color:black;
+ font-weight: bold;
+ margin: 0rem 0rem 2.5rem 2.5rem; 
+ line-height: 130%;
+ }
+ 
+ main ul{ list-style: disc outside;}
+ .head3{
+ font-size: 2rem;
+ color:black;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ margin-left: 0.8rem;
+ padding-bottom: 0.2rem;
+ }

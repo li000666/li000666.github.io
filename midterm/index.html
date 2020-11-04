@@ -8,30 +8,39 @@
 </head>
 
 <body>
-  <div class="container">
+
+  <div class="container1">
     <!-- Control + / or Command + / -->
     <!-- This is a HTML comment -->
     <!-- Site header -->
-      <h1>Lone Starfish</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html">HOME</a>
-          </li>
-          <li>
-            <a href="story.html">STORY</a>
-          </li>
-          <li>
-            <a href="contact.html">CONTACT</a>
-          </li>
+    <header>
+      <div class="head-div"> 
+          <!-- add image for the background -->
+          <img class="head-img" src="images/lone-starfish-wide.jpg" alt="lone starfish image">
+      <div class="h1-div">
+          <h1 id="h1">Lone Starfish</h1>
+      </div>
+  </div>
+  <div class="nav">
+    <nav>
+      <ul>
+        <li>
+          <a class="nav1" href="#head1">HOME</a>
+        </li>
+        <li>
+          <a class="nav2" href="#head2">STORY</a>
+        </li>
+        <li>
+          <a class="nav3" href="#head3">CONTACT</a>
+        </li>
         </ul>
-      </nav>
+    </nav>
+  </div>
     </header>
     <!-- page content -->
-    <main>
-
-      <article>
-        <h2>Life of a Starfish</h2>
+    <main class="main">
+    <article>
+        <h2 class="head1" id="head1">Life of a Starfish</h2>
         <!-- Adding image -->
 
         <div class="container">
@@ -40,26 +49,27 @@
           <p>Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
           </p>
         </div>
-        
-        <hr>
+
       </article>
-      <aside>
-        <h3>Facts About Starfish</h3>
+      <section>
+        <h2>Facts About Starfish</h2>
         <ul>
           <li>Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy.</li>
           <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
           <li>Herring barbel Mexican golden trout, killifish bonito; northern anchovy</li>
           <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
         </ul>
-      </aside>
+
       <!-- Adding section for the ordered list -->
 
       <!-- Adding a form -->
-    <section>
-      <h3>Contact to learn more</h3>
+      </section>
+      <aside>
+      <h2 class="head3" id="head3">Contact to learn more</h2>
+      <div class="form">
       <form action="thanks.html" method="get">
         <div>
-          <label for="fullname">Your Name</label>
+          <label for="fullname">Your Name:</label>
           <input type="text" id="fullname" name="yourname" required>
         </div>
         <div>
@@ -79,14 +89,20 @@
           <label for="maybe">Maybe</label>
           <input type="radio" id="maybe" name="past">
         </div>
+
+        <div>
         <button type="send">SEND</button>
+        </div>
       </form>
-    </section>
+      </aside>
+
     </main>
     <footer class="site-footer">
       <!-- HTML Entity -->
       Copyright &copy; Lone Starfish.
     </footer>
+    <div class="box">
+      <a href="#h1">Back to Top</a>
   </div>
 </body>
 
